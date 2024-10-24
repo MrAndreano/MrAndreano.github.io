@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wallet List App</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <style>
+        #helloButton {
+            background-color: blue;
+            color: white;
+        }
+        #helloButton.disabled {
+            background-color: grey;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wallet List</h1>
+    <button id="connectWalletButton">Connect Wallet</button>
+    <button id="helloButton" class="disabled" disabled>Hello</button>
+    <div id="walletsList"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
